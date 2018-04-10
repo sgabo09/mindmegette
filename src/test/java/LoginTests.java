@@ -11,7 +11,6 @@ public class LoginTests {
     UserManager userManager = new UserManager();
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
-    AccountPage accountPage = new AccountPage(driver);
 
     @Rule
     public TestTracer testTracer = new TestTracer(driver);
