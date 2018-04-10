@@ -6,8 +6,8 @@ import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginTest {
-    static WebDriver driver = BrowserManager.getBrowser(BrowserType.FIREFOX);
+public class LoginTests {
+    static WebDriver driver = BrowserManager.getBrowser(BrowserType.CHROME);
     UserManager userManager = new UserManager();
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
